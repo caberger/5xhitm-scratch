@@ -2,8 +2,8 @@ import { BehaviorSubject } from "rxjs"
 import { ToDo } from "./todo"
 
 export interface Model {
-    toDos: ToDo[]
-    user: string
+    readonly toDos: ToDo[]
+    readonly user: string
 
 }
 const initialState : Model = {

@@ -1,5 +1,5 @@
-import {ToDo} from "./todo"
-import {Model, store} from "../model"
+import { ToDo } from "./todo"
+import { store } from "../model"
 import { produce } from "immer"
 
 const BASEURL = "https://jsonplaceholder.typicode.com/todos"
